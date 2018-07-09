@@ -4,3 +4,9 @@ yarn add react-router-dom@next
 
 installing prop-types:
 @types/prop-types@next
+
+Service Workers: an Introduction
+https://developers.google.com/web/fundamentals/primers/service-workers/
+
+TypeScript (Language Specification Version 1.8 January, 2016):
+file:///Users/szz/Downloads/TypeScript%20Language%20Specification.pdf
