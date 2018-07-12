@@ -1,4 +1,6 @@
 import * as React from 'react';
+import { Provider } from "react-redux";
+
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import * as PropTypes from 'prop-types';
 // import Beta from './assets/img/Beta.png';
@@ -12,6 +14,8 @@ import {
   NotFountPage,
 } from './features/pages';
 import * as routes from './routes/const';
+import store from "./store";
+
 // import { createBrowserHistory } from 'history';
 
 // const history = createBrowserHistory();
@@ -19,6 +23,7 @@ import * as routes from './routes/const';
 class App extends React.Component {
   public render() {
     return (
+      <Provider store={store}>
       <Router>
         <div>
           <Header />
@@ -30,6 +35,7 @@ class App extends React.Component {
           <Footer />
         </div>
       </Router>
+      </Provider>
     );
   }
 }

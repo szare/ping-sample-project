@@ -1,12 +1,11 @@
 import * as React from 'react';
-import Form from '../components/Form';
+import ClientEditor from './Test';
 
 class HomePage extends React.Component {
     public render() {
         return (
             <div>
-                home page....
-                <Form text={'David'}/>
+                <ClientEditor/>
             </div>
         );
     }
