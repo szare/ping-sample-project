@@ -6,3 +6,4 @@ export const receiveHelloWorld = text => ({ type: RECEIVE_HELLO_WORLD, text });
 
 //  export const updateClientName = () => boolean => true;
 //  export const updateClientAge = () => boolean => true;
+
