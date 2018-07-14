@@ -13,8 +13,3 @@ https://github.com/Microsoft/TypeScript/blob/master/doc/TypeScript%20Language%20
 
 Build your first progressive web app with React:
 https://engineering.musefind.com/build-your-first-progressive-web-app-with-react-8e1449c575cd
-
-Adding Redux-Saga:
-yarn add @types/redux@next
-yarn add @types/redux-saga@next
-yarn add @types/react-redux@next

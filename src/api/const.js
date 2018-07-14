@@ -1,5 +1,5 @@
-//export const DEV_SERVER = 'http://192.168.1.100:85';
-//export const DEV_SERVER = 'http://localhost:5000';
+  // export const DEV_SERVER = 'http://192.168.1.100:85';
+ // export const DEV_SERVER = 'http://localhost:5000';
 export const DEV_SERVER = 'http://api.farsmount.ir';
 
 export const DEV_SERVER_API = `${DEV_SERVER}/api`;
