@@ -25,7 +25,7 @@ class App extends React.Component {
     return (
       <Provider store={store}>
       <Router>
-        <div>
+        <div className={"container"}>
           <Header />
             <Switch>
               <Route exact={true} path={routes.APP_ROOT} component={HomePage} />
