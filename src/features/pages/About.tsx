@@ -5,6 +5,7 @@ class About extends React.Component {
         return (
             <div className={"about-wrapper"}>
                 about page....
+                adding new line...
             </div>
         );
     }
